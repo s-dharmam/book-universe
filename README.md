@@ -5,7 +5,7 @@
 ## homepage
 
 ### features:-  
-suggestions based on previous transactions.<br>  
+suggestions based on previous transactions in cart.<br>  
 probability of particular book being in suggestions is directly corellated to number of times paticular book was bought with books present in cart.<br>
 
 ![tempsnip](https://user-images.githubusercontent.com/49832962/137640329-8d58d582-6454-4e4b-afdd-246a067e9a41.png)

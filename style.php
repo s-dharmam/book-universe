@@ -17,4 +17,8 @@
             justify-content:center;
         }
         
+        .colour{
+            background-color:blue;
+            color:white;
+        }
 </style>

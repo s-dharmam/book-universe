@@ -2,28 +2,34 @@
 
 
  
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg  bg-light colour">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="home.php">home</a>
+  <a class="navbar-brand " href="home.php"><b>Book Universe</b></a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="login.php">login </a>
+        <a class="nav-link" href="login.php">Login </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="register.php">register</a>
+        <a class="nav-link" href="register.php">Register</a>
       </li>
       <?php 
       if(isset($_SESSION["username"])) {
         ?>
       <li class="nav-item">
-      <a class="nav-link" href="logout.php">logout</a>
+      <a class="nav-link" href="logout.php">Logout</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" href="manage.php">manage books</a>
+      <a class="nav-link" href="manage.php">Manage books</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="cart.php">cart</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="search.php">search</a>
       </li>
       <?php
       }

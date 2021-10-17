@@ -29,9 +29,15 @@ include "navbar.php";
         $query    = "SELECT * FROM `user` WHERE username='$uname' AND password='$password'";
         $result = mysqli_query($con, $query) or die(mysql_error());
         $rows = mysqli_num_rows($result);
+
+        $query1="select count(*) from book";
+        $result1 = mysqli_query($con, $query1) or die(mysql_error());
+        $rows = mysqli_num_rows($result);
+
         if ($rows > 0) {
             $_SESSION['username'] = $uname;
             $_SESSION['books'] = "all";
+            $_SESSION['cart']=array(); 
             echo "<script>alert('log in successful')</script>";
             header('Location:home.php');
         } else {

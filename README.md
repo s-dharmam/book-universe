@@ -1,5 +1,5 @@
 # book-universe!
-It is a academic project for course of "Web Development" in semester 5
+## It is a academic project for course of "Web Development" in semester 5
 ![home1](https://user-images.githubusercontent.com/49832962/137639511-5ba3f637-6670-4d2d-a1d8-aff99285ca9a.PNG)
 
 ## homepage
